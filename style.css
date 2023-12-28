@@ -12,8 +12,16 @@ a {
 	color: #ffffff;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 .purple {
 	color: #800080;
+}
+
+.purple:hover {
+	text-decoration: underline;
 }
 
 .left,
@@ -30,6 +38,16 @@ a {
 
 .margin-left {
 	margin-left: 1000px;
+}
+
+.margin-left:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.account:hover {
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 img {
@@ -123,7 +141,7 @@ li.icon {
 
 #menu label {
 	display: none;
-	line-height: 45px;
+		line-height: 45px;
 	text-align: center;
 	position: absolute;
 	left: 35px
