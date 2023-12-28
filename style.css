@@ -58,8 +58,21 @@ p {
 	background: #F3F3F3;
 	color: #FFF;
 	height: 45px;
-	padding-left: 18px;
+	padding-left: 20px;
 	border-radius: 0px;
+}
+
+#menu,
+ul,
+li.icon {
+	margin-left: auto;
+	margin-right: 50px;
+	/* Adjust margin as needed for spacing */
+}
+
+.fa-shopping-cart {
+	color: #800080;
+	margin-top: 14px;
 }
 
 #menu ul,
